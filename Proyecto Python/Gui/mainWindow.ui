@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(209, 217, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>190</y>
+      <width>531</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="gestureWindowBtn">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border: .1px solid #900;
+border-bottom: none;
+border-radius:8px;
+padding:0px;
+transition: 2s;
+
+}
+QPushButton:hover{
+background-color: rgb(126, 129, 180);
+padding:2px
+
+}
+QPushButton:pressed{
+	background-color: rgb(77, 90, 173);}</string>
+       </property>
+       <property name="text">
+        <string>Control de gestos</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/hand.png</normaloff>icons/hand.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>41</width>
+         <height>84</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>156</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="voiceWindowBtn">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border: .1px solid #900;
+border-bottom: none;
+border-radius:8px;
+padding:0px;
+transition: 2s;
+
+}
+QPushButton:hover{
+background-color: rgb(126, 129, 180);
+padding:2px
+
+}
+QPushButton:pressed{
+	background-color: rgb(77, 90, 173);}</string>
+       </property>
+       <property name="text">
+        <string>Control de Voz</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/voice-control.png</normaloff>icons/voice-control.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>41</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Light</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  background: rgba(76, 175, 80, 0.000001) /* Green background with 30% opacity */</string>
+    </property>
+    <property name="text">
+     <string>Asistente Virtual</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>20</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: .1px solid #900;
+border-bottom: none;
+border-radius:8px;
+padding:0px;
+transition: 2s;
+
+}
+QPushButton:hover{
+background-color: rgb(126, 129, 180);
+padding:2px
+
+}
+QPushButton:pressed{
+	background-color: rgb(77, 90, 173);}</string>
+    </property>
+    <property name="text">
+     <string>Information</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/information.png</normaloff>icons/information.png</iconset>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
